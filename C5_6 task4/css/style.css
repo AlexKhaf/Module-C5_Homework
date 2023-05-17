@@ -1,0 +1,21 @@
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.btn {
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px black;
+  transform: scale(1.05);
+}

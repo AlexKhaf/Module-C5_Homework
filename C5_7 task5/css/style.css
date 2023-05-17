@@ -1,0 +1,40 @@
+label {
+  display: block;
+}
+
+.inputData {
+  display: flex;
+}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.btn {
+  margin: 10px 0px 10px 50px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.1s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px black;
+  transform: scale(1.05);
+}
